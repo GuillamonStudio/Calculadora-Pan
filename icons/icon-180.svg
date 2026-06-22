@@ -1,1 +1,8 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="39" fill="#a35f2b"/>
+  <rect x="21" y="21" width="136" height="136" rx="28" fill="#fff3dc"/>
+  <ellipse cx="90" cy="93" rx="50" ry="27" fill="#d79a55" stroke="#6f3f1f" stroke-width="4"/>
+  <path d="M 61 93 C 66 75, 77 75, 82 93" fill="none" stroke="#fffaf1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 84 93 C 90 75, 100 75, 106 93" fill="none" stroke="#fffaf1" stroke-width="6" stroke-linecap="round"/>
+  <text x="50%" y="76%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="28" fill="#6f3f1f">PAN</text>
+</svg>
