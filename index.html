@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta name="theme-color" content="#a35f2b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Calculadora de Pan">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-180.svg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#a35f2b">
@@ -805,5 +811,14 @@ var mode="room";var rt={18:{4:2.2,6:1.5,8:1.05,12:.65,24:.25},22:{4:1.8,6:1.2,8:
     }
   });
 })();
+</script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("sw.js").catch(function (error) {
+      console.log("Service Worker no registrado:", error);
+    });
+  });
+}
 </script>
 </body></html>

@@ -1,7 +1,7 @@
 {
   "name": "Calculadora de Pan",
   "short_name": "Pan",
-  "description": "Calculadora de harina, hidratación, levadura, masa madre y fermentación.",
+  "description": "Calculadora de harina, hidratación, levadura, prefermentos y fermentación.",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",

@@ -1,20 +1,21 @@
-CALCULADORA DE PAN PARA IPHONE
+CALCULADORA DE PAN V6
 
-Esta carpeta contiene una versión PWA de la calculadora.
+Archivos para subir a GitHub Pages:
 
-Cómo instalarla en iPhone:
-1. Sube esta carpeta a un hosting estático con HTTPS.
-   Opciones sencillas: Netlify, Vercel, GitHub Pages o tu propio hosting.
-2. Abre la URL desde Safari en el iPhone.
-3. Pulsa Compartir.
-4. Elige "Añadir a pantalla de inicio".
-5. Se abrirá como una app independiente.
+- index.html
+- manifest.json
+- sw.js
+- icons/icon-180.svg
+- icons/icon-192.svg
+- icons/icon-512.svg
 
-Archivos:
-- index.html: calculadora principal
-- manifest.json: configuración de app instalable
-- sw.js: caché para uso offline
-- icons/: iconos de la app
+Instrucciones rápidas:
+1. Descomprime este ZIP.
+2. En tu repositorio de GitHub, sube estos archivos a la raíz.
+3. Si ya existían, sustitúyelos.
+4. Haz Commit changes.
+5. Espera a que GitHub Pages publique la nueva versión.
 
-Nota:
-Para que funcione como app instalable, iOS necesita abrirla desde Safari mediante una URL segura HTTPS. Abrir el archivo local directamente no permite instalarla como PWA.
+Importante:
+El archivo principal debe llamarse exactamente index.html.
+La carpeta icons debe estar directamente en la raíz del repositorio.
